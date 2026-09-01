@@ -33,6 +33,3 @@ function guestThree() {
     guestScore += 3
     guest.textContent = guestScore
 }
-
-window.guestTwo = guestTwo;
-window.guestThree = guestThree;
