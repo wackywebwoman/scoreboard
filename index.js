@@ -1,7 +1,6 @@
 
 let home = document.getElementById("home")
 let guest = document.getElementById("guest")
-let addTwo = document.getElementById("guestTwo").addEventListener("click, guestTwo")
 let homeScore = 0
 let guestScore = 0
 
@@ -27,10 +26,13 @@ function guestOne() {
 
 function guestTwo() {
     guestScore += 2
-    addTwo.textContent = guestScore
+    guest.textContent = guestScore
 }
 
 function guestThree() {
     guestScore += 3
     guest.textContent = guestScore
 }
+
+window.guestTwo = guestTwo;
+window.guestThree = guestThree;
